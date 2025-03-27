@@ -1,0 +1,118 @@
+* {
+    font-family: 'Marianne';
+}
+
+.ligne-horizontale {
+    border-top: 1px solid rgb(91, 86, 86);
+    /* Couleur et épaisseur de la ligne */
+    margin: 1em 0;
+    /* Espacement au-dessus et en dessous de la ligne (facultatif) */
+}
+
+.ligne-horizontale2 {
+    border-top: 1px solid rgb(91, 86, 86);
+    /* Couleur et épaisseur de la ligne */
+    margin: 1em 0;
+    /* Espacement au-dessus et en dessous de la ligne (facultatif) */
+}
+
+
+h3 {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+body {
+    background-image: url('../image/n529.jpg');
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1 {
+    font-size: 100px;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+
+
+.container {
+    margin-bottom: 200px;
+    text-align: right;
+    margin-right: 100px;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: solid 2px #333;
+
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+footer {
+    position: absolute;
+
+    font-size: 1.5rem;
+    color: #333;
+    border-bottom: solid 2px rgb(91, 86, 86);
+    margin: 1rem 0;
+
+
+
+}
+
+#button {
+    border-radius: 30px;
+}
+
+hr {
+    border-top: 1px solid rgb(91, 86, 86);
+    /* Couleur et épaisseur de la ligne */
+    margin: 1em 0;
+    /* Espacement au-dessus et en dessous de la ligne (facultatif) */
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #333;
+}
+
+
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+fieldset {
+    border-radius: 25px;
+    border: solid 0.5px #b3aeae;
+}
+
+input {
+    border-radius: 10px;
+    border: solid 0.5px #b3aeae;
+
+}
+
+textarea {
+    border-radius: 10px;
+}
